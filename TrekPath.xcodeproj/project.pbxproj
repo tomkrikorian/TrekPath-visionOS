@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82289D0F2AE16EFF003295F2 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82289D0E2AE16EFF003295F2 /* ModelView.swift */; };
+		8258627A2A49F2A100D1BE1D /* TrekPathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825862792A49F2A100D1BE1D /* TrekPathApp.swift */; };
+		8258627C2A49F2A100D1BE1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258627B2A49F2A100D1BE1D /* ContentView.swift */; };
+		8258627E2A49F2A300D1BE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8258627D2A49F2A300D1BE1D /* Assets.xcassets */; };
+		825862812A49F2A300D1BE1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825862802A49F2A300D1BE1D /* Preview Assets.xcassets */; };
+		8258628E2A49F80000D1BE1D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258628D2A49F80000D1BE1D /* MapView.swift */; };
+		827318602A5841620007DF0B /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273185F2A5841620007DF0B /* AppViewModel.swift */; };
+		82F206992A55A16A00E7E1D8 /* ElevationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F206982A55A16A00E7E1D8 /* ElevationView.swift */; };
+		E21FA4B22A9F4E7A00D8F68F /* day3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E21FA4AD2A9F4E7A00D8F68F /* day3.gpx */; };
+		E21FA4B32A9F4E7A00D8F68F /* day1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E21FA4AE2A9F4E7A00D8F68F /* day1.gpx */; };
+		E21FA4B42A9F4E7A00D8F68F /* day4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E21FA4AF2A9F4E7A00D8F68F /* day4.gpx */; };
+		E21FA4B52A9F4E7A00D8F68F /* day5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E21FA4B02A9F4E7A00D8F68F /* day5.gpx */; };
+		E21FA4B62A9F4E7A00D8F68F /* day2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E21FA4B12A9F4E7A00D8F68F /* day2.gpx */; };
+		E21FA4BB2A9F6B6C00D8F68F /* TileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FA4BA2A9F6B6C00D8F68F /* TileEntity.swift */; };
+		E21FA4BD2A9F7D1000D8F68F /* EntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FA4BC2A9F7D1000D8F68F /* EntityExtension.swift */; };
+		E28B40492A83925F0025E693 /* Model3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B40482A83925F0025E693 /* Model3DView.swift */; };
+		E28D66F02AA8BAEB008BED18 /* GPXKit in Frameworks */ = {isa = PBXBuildFile; productRef = E28D66EF2AA8BAEB008BED18 /* GPXKit */; };
+		E28D66F32AA8CF4B008BED18 /* GeoBoundsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D66F22AA8CF4B008BED18 /* GeoBoundsExtension.swift */; };
+		E2DB54322A9F4DCC006F535B /* map3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E2DB542D2A9F4DCC006F535B /* map3.usdz */; };
+		E2DB54332A9F4DCC006F535B /* map2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E2DB542E2A9F4DCC006F535B /* map2.usdz */; };
+		E2DB54342A9F4DCC006F535B /* map5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E2DB542F2A9F4DCC006F535B /* map5.usdz */; };
+		E2DB54352A9F4DCC006F535B /* map4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E2DB54302A9F4DCC006F535B /* map4.usdz */; };
+		E2DB54362A9F4DCC006F535B /* map1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E2DB54312A9F4DCC006F535B /* map1.usdz */; };
+		E2FD9DD22A714C68007EECA2 /* StepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD9DD12A714C68007EECA2 /* StepData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82289D0E2AE16EFF003295F2 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		825862722A49F2A100D1BE1D /* TrekPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		825862792A49F2A100D1BE1D /* TrekPathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekPathApp.swift; sourceTree = "<group>"; };
+		8258627B2A49F2A100D1BE1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8258627D2A49F2A300D1BE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		825862802A49F2A300D1BE1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8258628D2A49F80000D1BE1D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		825862942A4A130300D1BE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8273185F2A5841620007DF0B /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		82F206982A55A16A00E7E1D8 /* ElevationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationView.swift; sourceTree = "<group>"; };
+		E21FA4AD2A9F4E7A00D8F68F /* day3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = day3.gpx; sourceTree = "<group>"; };
+		E21FA4AE2A9F4E7A00D8F68F /* day1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = day1.gpx; sourceTree = "<group>"; };
+		E21FA4AF2A9F4E7A00D8F68F /* day4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = day4.gpx; sourceTree = "<group>"; };
+		E21FA4B02A9F4E7A00D8F68F /* day5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = day5.gpx; sourceTree = "<group>"; };
+		E21FA4B12A9F4E7A00D8F68F /* day2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = day2.gpx; sourceTree = "<group>"; };
+		E21FA4BA2A9F6B6C00D8F68F /* TileEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileEntity.swift; sourceTree = "<group>"; };
+		E21FA4BC2A9F7D1000D8F68F /* EntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityExtension.swift; sourceTree = "<group>"; };
+		E28B40482A83925F0025E693 /* Model3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model3DView.swift; sourceTree = "<group>"; };
+		E28D66F22AA8CF4B008BED18 /* GeoBoundsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoBoundsExtension.swift; sourceTree = "<group>"; };
+		E2DB542D2A9F4DCC006F535B /* map3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = map3.usdz; sourceTree = "<group>"; };
+		E2DB542E2A9F4DCC006F535B /* map2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = map2.usdz; sourceTree = "<group>"; };
+		E2DB542F2A9F4DCC006F535B /* map5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = map5.usdz; sourceTree = "<group>"; };
+		E2DB54302A9F4DCC006F535B /* map4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = map4.usdz; sourceTree = "<group>"; };
+		E2DB54312A9F4DCC006F535B /* map1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = map1.usdz; sourceTree = "<group>"; };
+		E2FD9DD12A714C68007EECA2 /* StepData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8258626F2A49F2A100D1BE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28D66F02AA8BAEB008BED18 /* GPXKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		825862692A49F2A100D1BE1D = {
+			isa = PBXGroup;
+			children = (
+				825862742A49F2A100D1BE1D /* TrekPath */,
+				825862732A49F2A100D1BE1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		825862732A49F2A100D1BE1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				825862722A49F2A100D1BE1D /* TrekPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		825862742A49F2A100D1BE1D /* TrekPath */ = {
+			isa = PBXGroup;
+			children = (
+				E28D66F12AA8CF2E008BED18 /* Extensions */,
+				E21FA4B92A9F6B5E00D8F68F /* Entity */,
+				E21FA4B72A9F6AA600D8F68F /* Views */,
+				E2A654502A9F4B51005C3105 /* Resources */,
+				E2A6544F2A9F4B30005C3105 /* Model */,
+				825862942A4A130300D1BE1D /* Info.plist */,
+				825862792A49F2A100D1BE1D /* TrekPathApp.swift */,
+				8258627D2A49F2A300D1BE1D /* Assets.xcassets */,
+				8258627F2A49F2A300D1BE1D /* Preview Content */,
+			);
+			path = TrekPath;
+			sourceTree = "<group>";
+		};
+		8258627F2A49F2A300D1BE1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				825862802A49F2A300D1BE1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82657E6C2AE2B36C007C768D /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				82F206982A55A16A00E7E1D8 /* ElevationView.swift */,
+				8258628D2A49F80000D1BE1D /* MapView.swift */,
+				82289D0E2AE16EFF003295F2 /* ModelView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		E21FA4B72A9F6AA600D8F68F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82657E6C2AE2B36C007C768D /* Tabs */,
+				E28B40482A83925F0025E693 /* Model3DView.swift */,
+				8258627B2A49F2A100D1BE1D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E21FA4B92A9F6B5E00D8F68F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E21FA4BA2A9F6B6C00D8F68F /* TileEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E28D66F12AA8CF2E008BED18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E21FA4BC2A9F7D1000D8F68F /* EntityExtension.swift */,
+				E28D66F22AA8CF4B008BED18 /* GeoBoundsExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2A6544F2A9F4B30005C3105 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD9DD12A714C68007EECA2 /* StepData.swift */,
+				8273185F2A5841620007DF0B /* AppViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2A654502A9F4B51005C3105 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB542C2A9F4DCC006F535B /* USDZ */,
+				E2DB54202A9F4D50006F535B /* GPX */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2DB54202A9F4D50006F535B /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				E21FA4AE2A9F4E7A00D8F68F /* day1.gpx */,
+				E21FA4B12A9F4E7A00D8F68F /* day2.gpx */,
+				E21FA4AD2A9F4E7A00D8F68F /* day3.gpx */,
+				E21FA4AF2A9F4E7A00D8F68F /* day4.gpx */,
+				E21FA4B02A9F4E7A00D8F68F /* day5.gpx */,
+			);
+			path = GPX;
+			sourceTree = "<group>";
+		};
+		E2DB542C2A9F4DCC006F535B /* USDZ */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB542D2A9F4DCC006F535B /* map3.usdz */,
+				E2DB542E2A9F4DCC006F535B /* map2.usdz */,
+				E2DB542F2A9F4DCC006F535B /* map5.usdz */,
+				E2DB54302A9F4DCC006F535B /* map4.usdz */,
+				E2DB54312A9F4DCC006F535B /* map1.usdz */,
+			);
+			path = USDZ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		825862712A49F2A100D1BE1D /* TrekPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825862842A49F2A300D1BE1D /* Build configuration list for PBXNativeTarget "TrekPath" */;
+			buildPhases = (
+				8258626E2A49F2A100D1BE1D /* Sources */,
+				8258626F2A49F2A100D1BE1D /* Frameworks */,
+				825862702A49F2A100D1BE1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrekPath;
+			packageProductDependencies = (
+				E28D66EF2AA8BAEB008BED18 /* GPXKit */,
+			);
+			productName = TrekPath;
+			productReference = 825862722A49F2A100D1BE1D /* TrekPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8258626A2A49F2A100D1BE1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					825862712A49F2A100D1BE1D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 8258626D2A49F2A100D1BE1D /* Build configuration list for PBXProject "TrekPath" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 825862692A49F2A100D1BE1D;
+			packageReferences = (
+				E28D66EE2AA8BAEB008BED18 /* XCRemoteSwiftPackageReference "GPXKit" */,
+			);
+			productRefGroup = 825862732A49F2A100D1BE1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				825862712A49F2A100D1BE1D /* TrekPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		825862702A49F2A100D1BE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DB54362A9F4DCC006F535B /* map1.usdz in Resources */,
+				E21FA4B42A9F4E7A00D8F68F /* day4.gpx in Resources */,
+				E2DB54332A9F4DCC006F535B /* map2.usdz in Resources */,
+				E21FA4B32A9F4E7A00D8F68F /* day1.gpx in Resources */,
+				E2DB54342A9F4DCC006F535B /* map5.usdz in Resources */,
+				E21FA4B62A9F4E7A00D8F68F /* day2.gpx in Resources */,
+				E21FA4B52A9F4E7A00D8F68F /* day5.gpx in Resources */,
+				825862812A49F2A300D1BE1D /* Preview Assets.xcassets in Resources */,
+				E2DB54352A9F4DCC006F535B /* map4.usdz in Resources */,
+				8258627E2A49F2A300D1BE1D /* Assets.xcassets in Resources */,
+				E21FA4B22A9F4E7A00D8F68F /* day3.gpx in Resources */,
+				E2DB54322A9F4DCC006F535B /* map3.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8258626E2A49F2A100D1BE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28D66F32AA8CF4B008BED18 /* GeoBoundsExtension.swift in Sources */,
+				E21FA4BD2A9F7D1000D8F68F /* EntityExtension.swift in Sources */,
+				8258627C2A49F2A100D1BE1D /* ContentView.swift in Sources */,
+				827318602A5841620007DF0B /* AppViewModel.swift in Sources */,
+				8258628E2A49F80000D1BE1D /* MapView.swift in Sources */,
+				82289D0F2AE16EFF003295F2 /* ModelView.swift in Sources */,
+				E28B40492A83925F0025E693 /* Model3DView.swift in Sources */,
+				E21FA4BB2A9F6B6C00D8F68F /* TileEntity.swift in Sources */,
+				8258627A2A49F2A100D1BE1D /* TrekPathApp.swift in Sources */,
+				82F206992A55A16A00E7E1D8 /* ElevationView.swift in Sources */,
+				E2FD9DD22A714C68007EECA2 /* StepData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		825862822A49F2A300D1BE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		825862832A49F2A300D1BE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		825862852A49F2A300D1BE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrekPath/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrekPath/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TrekPath;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We need your location to show it on the map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show it on the map";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vision.tom.trekpath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		825862862A49F2A300D1BE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrekPath/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrekPath/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TrekPath;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We need your location to show it on the map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show it on the map";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vision.tom.trekpath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8258626D2A49F2A100D1BE1D /* Build configuration list for PBXProject "TrekPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825862822A49F2A300D1BE1D /* Debug */,
+				825862832A49F2A300D1BE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825862842A49F2A300D1BE1D /* Build configuration list for PBXNativeTarget "TrekPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825862852A49F2A300D1BE1D /* Debug */,
+				825862862A49F2A300D1BE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E28D66EE2AA8BAEB008BED18 /* XCRemoteSwiftPackageReference "GPXKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mmllr/GPXKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E28D66EF2AA8BAEB008BED18 /* GPXKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E28D66EE2AA8BAEB008BED18 /* XCRemoteSwiftPackageReference "GPXKit" */;
+			productName = GPXKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8258626A2A49F2A100D1BE1D /* Project object */;
+}
